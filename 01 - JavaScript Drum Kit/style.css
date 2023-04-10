@@ -1,7 +1,9 @@
 html {
   font-size: 10px;
   background: url('./background.jpg') bottom center;
-  background-size: cover;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-color: black;
 }
 
 body,html {
@@ -28,13 +30,13 @@ body,html {
   width: 10rem;
   text-align: center;
   color: white;
-  background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
+  background: rgba(154, 154, 154, 0.7);
+  text-shadow: 0 0 .8rem black;
 }
 
 .playing {
-  transform: scale(1.1);
-  border-color: #ffc600;
+  transform: scale(1.2);
+  border-color: #ffd500;
   box-shadow: 0 0 1rem #ffc600;
 }
 
